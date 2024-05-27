@@ -26,7 +26,7 @@ public class AccountThread extends Thread {
     
 }
 
-public class Account{
+ class Account{
     public static void main(String[] args) {
         AccountThread obj=new AccountThread();
         obj.setName("Ashwini");

@@ -12,7 +12,7 @@ public class FirstJDBCEx {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         // Establish the connection
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "root");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "Ashwini@26");
 
         // Create a statement
         Statement stmt = con.createStatement();
